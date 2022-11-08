@@ -1,0 +1,165 @@
+[
+    {
+        "key": "design",
+        "name": "Дизайн", 
+        "childs": [
+            {
+                "id":"1",
+                "subName":"Логотип и брендинг",
+                "subChilds": [
+
+                    {"subChildName":"Логотипы","key":"logos"},
+                    {"subChildName":"Фирменный стиль","key":"firm-style"},
+                    {"subChildName":"Визитки","key":"visits"},
+                    {"subChildName":"Брендирование и сувенирка","key":"branding-and-souvenir"}
+         
+                ] 
+            },
+
+            {
+                "id":"2",
+                "subName":"Веб и мобильный дизайн",
+                "subChilds": [
+
+                    {"subChildName":"Веб-дизайн","key":"web-design"},
+                    {"subChildName":"Мобильный дизайн","key":"mobile-design"},
+                    {"subChildName":"Email-дизайн","key":"email-design"},
+                    {"subChildName":"Баннеры и иконки","key":"banners-and-icons"},
+                    {"subChildName":"Дизайн в соцсетях","key":"social-media-design"},
+                    {"subChildName":"Юзабилити-аудит","key":"usability-audit"}
+
+                ] 
+            },
+            
+            {
+                "id":"3",
+                "subName":"Полиграфия",
+                "subChilds": [
+
+                    {"subChildName":"Брошюра и буклет","key":"Logos"},
+                    {"subChildName":"Листовки и флаеры","key":"Logos"},
+                    {"subChildName":"Плакат и афиша","key":"Logos"},
+                    {"subChildName":"Календарь и открытка","key":"Logos"},
+                    {"subChildName":"Каталог, меню, книга","key":"Logos"},
+                    {"subChildName":"Грамота и сертификат","key":"Logos"}
+    
+                ] 
+            },
+
+         
+            {
+                
+                "id":"4",
+                "subName":"Презентации и инфографика",
+                "subChilds": [
+
+                    {"subChildName":"Презентации","key":"Logos"},
+                    {"subChildName":"Инфографика","key":"Logos"},
+                    {"subChildName":"Карты и схемы","key":"Logos"}
+
+                ] 
+            },
+
+            {
+                "id":"5",
+                "subName":"Обработка и редактирование",
+                "subChilds": [
+                    {"subChildName":"Отрисовка в векторе","key":"Logos"},
+                    {"subChildName":"Фотомонтаж и обработка","key":"Logos"},
+                    {"subChildName":"3D-графика","key":"Logos"}
+                    
+                ] 
+            },
+            {
+                "id":"6",
+                "subName":"Промышленный дизайн",
+                "subChilds": [
+
+                    {"subChildName":"Дизайн электроники и устройств","key":"Logos"},
+                    {"subChildName":"Дизайн предметов и аксессуаров","key":"Logos"},
+                    {"subChildName":"Дизайн упаковок и этикеток","key":"Logos"}
+                    
+                ] 
+            },
+            {
+                
+                
+                
+                 
+                
+
+                "id":"7",
+                "subName":"Арт и иллюстрации",
+                "subChilds": [
+
+                    {"subChildName":"Портрет, шарж, карикатура","key":"Logos"},
+                    {"subChildName":"Иллюстрации и рисунки","key":"Logos"},
+                    {"subChildName":"Дизайн игр","key":"Logos"},
+                    {"subChildName":"Тату, принты","key":"Logos"},
+                    {"subChildName":"Стикеры","key":"Logos"},
+                    {"subChildName":"Готовые шаблоны и рисунки","key":"Logos"}
+  
+                ] 
+            },
+            {
+                "id":"8",
+                "subName":"Интерьер и экстерьер",
+                "subChilds": [
+                     
+                    {"subChildName":"Интерьер","key":"Logos"},
+                    {"subChildName":"Дизайн домов и сооружений","key":"Logos"},
+                    {"subChildName":"Ландшафтный дизайн","key":"Logos"},
+                    {"subChildName":"Дизайн мебели","key":"Logos"}
+
+                ] 
+            },
+            {
+                "id":"9",
+                "subName":"Наружная реклама",
+                "subChilds": [
+                    
+                  
+
+                    {"subChildName":"Билборды и стенды","key":"Logos"},
+                    {"subChildName":"Витрины и вывески","key":"Logos"}
+                    
+                ] 
+            }
+
+        ]
+    },
+
+
+
+
+
+
+
+            
+        ]
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+]

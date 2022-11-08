@@ -1,0 +1,209 @@
+import { useCallback, useState, useEffect } from "react";
+import style from "./Header.module.scss";
+import Link from "next/link";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Image from "next/dist/client/image";
+import logo1 from "../../../public/Image/logo1.png";
+import logo2 from "../../../public/Image/logo2.png";
+import light_dark_icon from "../../../public/Image/light_dark.png";
+import { Menu } from "./Menu/MainMenu";
+import { CategoriesMenu } from "./Menu/CategoriesMenu/CategoriesMenu";
+import Head from "next/head";
+
+export default function Header() {
+    const [isDarkMode, setIsDarkMode] = useState(false);
+
+    const onClick = useCallback(
+        (evt) => {
+            evt.preventDefault();
+            if ("undefined" === typeof document) {
+                return;
+            }
+
+            let styles;
+
+            if (isDarkMode) {
+                styles = `  background-color:white;
+                            transition: 1s;
+                            `;
+
+                setIsDarkMode(false);
+            } else {
+                styles = `background-color:#1F2E35;
+                          color:white !important;
+                          transition: 1s;
+                          `;
+
+                setIsDarkMode(true);
+            }
+            document.body.style = styles;
+        },
+        [isDarkMode]
+    );
+
+    return (
+        <>
+            <div className={style.headers}>
+                <nav className={`navbar navbar-expand-lg navbar-light `}>
+                    <div className={`container-xxl`}>
+                        <Link href={"/"}>
+                            <a
+                                className={`navbar-brand d-flex align-items-center`}
+                            >
+                                <Image
+                                    src={logo1}
+                                    alt="Picture of the author"
+                                />
+                                <Image
+                                    src={logo2}
+                                    alt="Picture of the author"
+                                />
+                            </a>
+                        </Link>
+
+                        <button
+                            className={`navbar-toggler`}
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <span className={`navbar-toggler-icon`}></span>
+                        </button>
+                        <div
+                            class="collapse navbar-collapse"
+                            id="navbarSupportedContent"
+                        >
+                            {/* MainMenu */}
+
+                            <Menu />
+
+                            <Link href={"/Login"}>
+                                <a className={`btn   ${style.Sign_In_btn}`}>
+                                    Sign In
+                                </a>
+                            </Link>
+                            <Link href={"/Registration"}>
+                                <a
+                                    className={`btn text-white   ${style.Sign_Up_btn}`}
+                                >
+                                    Sign Up
+                                </a>
+                            </Link>
+
+                            <div className="image">
+                                <div className="img-fluid">
+                                    <a href="#">
+                                        <Image
+                                            src={light_dark_icon}
+                                            alt="Picture of the author"
+                                            onClick={onClick}
+                                        />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            {/* MenuBar */}
+
+            <nav
+                className={` navbar navbar-expand-lg navbar-light ${style.Nav} `}
+            >
+                <div className="container-fluid d-flex justify-content-center">
+                    <div className={`${style.border_menu_bottom}`}>
+                        <CategoriesMenu />
+                    </div>
+                </div>
+            </nav>
+
+
+
+
+            <nav className={`navbar navbar-light bg-light fixed-top ${hiddenMenuContent}`}>
+                <div className="container-fluid">
+                    <a className="navbar-brand" href="#">
+                        Offcanvas navbar
+                    </a>
+                    <button
+                        className="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar"
+                    >
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        className="offcanvas offcanvas-start"
+                        tabindex="-1"
+                        id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel"
+                    >
+                        <div className="offcanvas-header">
+                            <h5
+                                className="offcanvas-title"
+                                id="offcanvasNavbarLabel"
+                            >
+                                Offcanvas
+                            </h5>
+                            <button
+                                type="button"
+                                className="btn-close text-reset"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div className="offcanvas-body">
+                            <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <Menu />
+
+                                <Link href={"/Login"}>
+                                    <a className={`btn   ${style.Sign_In_btn}`}>
+                                        Sign In
+                                    </a>
+                                </Link>
+                                <Link href={"/Registration"}>
+                                    <a
+                                        className={`btn text-white   ${style.Sign_Up_btn}`}
+                                    >
+                                        Sign Up
+                                    </a>
+                                </Link>
+
+
+
+                              
+                            </ul>
+                            <form className="d-flex">
+                                <input
+                                    className="form-control me-2"
+                                    type="search"
+                                    placeholder="Search"
+                                    aria-label="Search"
+                                />
+                                <button
+                                    className="btn btn-outline-success"
+                                    type="submit"
+                                >
+                                    Search
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <Head>
+                <script
+                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+                    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+                    crossorigin="anonymous"
+                ></script>
+            </Head>
+        </>
+    );
+}

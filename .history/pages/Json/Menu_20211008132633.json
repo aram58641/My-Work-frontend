@@ -1,0 +1,135 @@
+[
+    {
+        "key": "design",
+        "name": "Дизайн", 
+        "childs": [
+            {
+                "id":"1",
+                "subName":"Логотип и брендинг",
+                "subChilds": [
+                    {"subChildName":"Логотипы"},
+                    {"subChildName":"Фирменный стиль"},
+                    {"subChildName":"Визитки"},
+                    {"subChildName":"Брендирование и сувенирка"}
+
+         
+                ] 
+            },
+           
+            {
+                "id":"2",
+                "subName":"Веб и мобильный дизайн",
+                "subChilds": [
+                    {"subChildName":"Веб-дизайн"},
+                    {"subChildName":"Мобильный дизайн"},
+                    {"subChildName":"Email-дизайн
+                    "}
+
+                ] 
+            },
+
+            {
+                "id":"3",
+                "subName":"Арт и иллюстрации",
+                "subChilds": [
+                    {"subChildName":"Дизайн игр"},
+                    {"subChildName":"Тату, принты"},
+                    {"subChildName":"Стикеры"},
+                    {"subChildName":"Готовые шаблоны и рисунки"}
+                    
+                ] 
+            },
+
+         
+            {
+                "id":"2",
+                "subName":"Презентации и инфографика",
+                "subChilds": [
+                    {"subChildName":"Логотипы"},
+                    {"subChildName":"Фирменный стиль"},
+                    {"subChildName":"Визитки"},
+                    {"subChildName":"Брендирование и сувенирка"}
+
+         
+                ] 
+            },
+            {
+                "id":"5",
+                "subName":"Обработка и редактирование",
+                "subChilds": [
+                    {"subChildName":"Отрисовка в векторе"},
+                    {"subChildName":"Фотомонтаж и обработка"},
+                    {"subChildName":"3D-графика"}
+                    
+                ] 
+            },
+            {
+                "id":"6",
+                "subName":"Интерьер и экстерьер",
+                "subChilds": [
+                    {"subChildName":"Интерьер"},
+                    {"subChildName":"Дизайн домов и сооружений"},
+                    {"subChildName":"Дизайн мебели"}
+                    
+                ] 
+            }
+
+
+        ]
+    },
+
+
+
+
+
+
+
+    {
+        "key": "it",
+        "name": "Разработка и IT", 
+        "childs": [
+            {
+                "subName":"Доработка и настройка сайта",
+                "subChilds": [
+                    {"subChildName":"Доработка сайта"},
+                    {"subChildName":"Настройка сайта"},
+                    {"subChildName":"Доработка сайта"},
+                    {"subChildName":"Доработка сайта"},
+                    {"subChildName":"Доработка сайта"},
+                    {"subChildName":"Доработка сайта"},
+                    {"subChildName":"Доработка сайта"},
+                    {"subChildName":"Доработка сайта"}
+                ] 
+            },
+            {
+                "subName":"Арт и иллюстрации",
+                "subChilds": [
+                    {"subChildName":"Дизайн игр"},
+                    {"subChildName":"Тату, принты"}
+                ] 
+            }
+        ]
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+]

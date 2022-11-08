@@ -1,0 +1,40 @@
+[
+    {
+        "key": "design",
+        "name": "Дизайн", 
+        "childs": [
+            {
+                "id":"1",
+                "subName":"Логотип и брендинг",
+                "subChilds": [
+
+                    {"subChildName":"Логотипы","key":"logos"},
+                    {"subChildName":"Фирменный стиль","key":"firm-style"},
+                    {"subChildName":"Визитки","key":"visits"},
+                    {"subChildName":"Брендирование и сувенирка","key":"branding-and-souvenir"}
+         
+                ] 
+            },
+
+            {
+                "id":"2",
+                "subName":"Веб и мобильный дизайн",
+                "subChilds": [
+
+                    {"subChildName":"Веб-дизайн","key":"web-design"},
+                    {"subChildName":"Мобильный дизайн","key":"mobile-design"},
+                    {"subChildName":"Email-дизайн","key":"email-design"},
+                    {"subChildName":"Баннеры и иконки","key":"banners-and-icons"},
+                    {"subChildName":"Дизайн в соцсетях","key":"social-media-design"},
+                    {"subChildName":"Юзабилити-аудит","key":"usability-audit"}
+
+                ] 
+            },
+            
+        
+
+        ]
+    }
+
+    
+]

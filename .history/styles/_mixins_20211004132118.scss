@@ -1,0 +1,16 @@
+@mixin with-theme($theme) {
+    @at-root body.theme-#{$theme} & {
+        @content;
+    }
+}
+
+@mixin with-theme-light {
+    @at-root body.theme-light & {
+        @content;
+    }
+}
+@mixin with-theme-light {
+    @at-root body.theme-light & {
+        @content;
+    }
+}

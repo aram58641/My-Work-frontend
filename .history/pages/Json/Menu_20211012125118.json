@@ -1,0 +1,440 @@
+[
+    {
+        "key": "design",
+        "name": "Дизайн", 
+        "childs": [
+            {
+                "id":"1",
+                "subName":"Логотип и брендинг",
+                "subChilds": [
+
+                    {"subChildName":"Логотипы"},
+                    {"subChildName":"Фирменный стиль"},
+                    {"subChildName":"Визитки"},
+                    {"subChildName":"Брендирование и сувенирка"}
+         
+                ] 
+            },
+
+            {
+                "id":"2",
+                "subName":"Веб и мобильный дизайн",
+                "subChilds": [
+
+                    {"subChildName":"Веб-дизайн"},
+                    {"subChildName":"Мобильный дизайн"},
+                    {"subChildName":"Email-дизайн"},
+                    {"subChildName":"Баннеры и иконки"},
+                    {"subChildName":"Дизайн в соцсетях"},
+                    {"subChildName":"Юзабилити-аудит"}
+
+                ] 
+            },
+            
+            {
+                "id":"3",
+                "subName":"Полиграфия",
+                "subChilds": [
+
+                    {"subChildName":"Брошюра и буклет"},
+                    {"subChildName":"Листовки и флаеры"},
+                    {"subChildName":"Плакат и афиша"},
+                    {"subChildName":"Календарь и открытка"},
+                    {"subChildName":"Каталог, меню, книга"},
+                    {"subChildName":"Грамота и сертификат"}
+    
+                ] 
+            },
+
+         
+            {
+                
+                "id":"4",
+                "subName":"Презентации и инфографика",
+                "subChilds": [
+
+                    {"subChildName":"Презентации"},
+                    {"subChildName":"Инфографика"},
+                    {"subChildName":"Карты и схемы"}
+
+                ] 
+            },
+
+            {
+                "id":"5",
+                "subName":"Обработка и редактирование",
+                "subChilds": [
+                    {"subChildName":"Отрисовка в векторе"},
+                    {"subChildName":"Фотомонтаж и обработка"},
+                    {"subChildName":"3D-графика"}
+                    
+                ] 
+            },
+            {
+                "id":"6",
+                "subName":"Промышленный дизайн",
+                "subChilds": [
+
+                    {"subChildName":"Дизайн электроники и устройств"},
+                    {"subChildName":"Дизайн предметов и аксессуаров"},
+                    {"subChildName":"Дизайн упаковок и этикеток"}
+                    
+                ] 
+            },
+            {
+                
+                
+                
+                 
+                
+
+                "id":"7",
+                "subName":"Арт и иллюстрации",
+                "subChilds": [
+
+                    {"subChildName":"Портрет, шарж, карикатура"},
+                    {"subChildName":"Иллюстрации и рисунки"},
+                    {"subChildName":"Дизайн игр"},
+                    {"subChildName":"Тату, принты"},
+                    {"subChildName":"Стикеры"},
+                    {"subChildName":"Готовые шаблоны и рисунки"}
+  
+                ] 
+            },
+            {
+                "id":"8",
+                "subName":"Интерьер и экстерьер",
+                "subChilds": [
+                     
+                    {"subChildName":"Интерьер"},
+                    {"subChildName":"Дизайн домов и сооружений"},
+                    {"subChildName":"Ландшафтный дизайн"},
+                    {"subChildName":"Дизайн мебели"}
+
+                ] 
+            },
+            {
+                "id":"9",
+                "subName":"Наружная реклама",
+                "subChilds": [
+                    
+                  
+
+                    {"subChildName":"Билборды и стенды"},
+                    {"subChildName":"Витрины и вывески"}
+                    
+                ] 
+            }
+
+        ]
+    },
+
+
+
+
+
+
+
+    {
+        "key": "it",
+        "name": "Разработка и IT", 
+        "childs": [
+            {
+                "id":"20",
+                "subName":"Доработка и настройка сайта",
+                "subChilds": [
+                    {"subChildName":"Доработка сайта"},
+                    {"subChildName":"Настройка сайта"},
+                    {"subChildName":"Защита и лечение сайта"},
+                    {"subChildName":"Ускорение сайта"},
+                    {"subChildName":"Плагины и темы"},
+                    {"subChildName":"Исправление ошибок сайта"}
+                  
+                ] 
+            },
+            {
+                "id":"21",
+                "subName":"Десктоп программирование",
+                "subChilds": [
+                    {"subChildName":"Макросы для Office"},
+                    {"subChildName":"Программирование в 1С"},
+                    {"subChildName":"Готовые программы"},
+                    {"subChildName":"Программы на заказ"}
+
+                ] 
+            },
+            {
+                "id":"22",
+                "subName":"Игры",
+                "subChilds": [
+                    {"subChildName":"Разработка игр"},
+                    {"subChildName":"Игровой сервер"},
+                    {"subChildName":"Готовые игры"}
+
+                ] 
+            },
+            {
+                "id":"23",
+                "subName":"Создание сайтов",
+                "subChilds": [
+                    {"subChildName":"Разработка игр"},
+                    {"subChildName":"Игровой сервер"},
+                    {"subChildName":"Готовые игры"}
+
+                ] 
+            },
+            {
+                "id":"24",
+                "subName":"Скрипты и боты",
+                "subChilds": [
+                    {"subChildName":"Скрипты"},
+                    {"subChildName":"Парсеры"},
+                    {"subChildName":"Чат-боты"}
+
+                ] 
+            },
+            {
+                "id":"25",
+                "subName":"Сервера и хостинг",
+                "subChilds": [
+                    {"subChildName":"Администрирование сервера"},
+                    {"subChildName":"Домены"},
+                    {"subChildName":"Хостинг"}
+                ] 
+            },
+            {
+                "id":"26",
+                "subName":"Верстка",
+                "subChilds": [
+                    {"subChildName":"Верстка сайта по макету"},
+                    {"subChildName":"Доработка и адаптация  сайта"},
+                    {"subChildName":"Хостинг"}
+                ] 
+            },
+
+            {
+                "id":"27",
+                "subName":"Мобильные приложения",
+                "subChilds": [
+                    {"subChildName":"iOS"},
+                    {"subChildName":"Android"}
+
+                ] 
+            },
+            
+            {
+                "id":"28",
+                "subName":"Юзабилити, тесты и помощь",
+                "subChilds": [
+                    {"subChildName":"Юзабилити-аудит"},
+                    {"subChildName":"Тестирование на ошибки"},
+                    {"subChildName":"Компьютерная и IT помощь"}
+
+                ] 
+            }
+           
+           
+        ]
+    },
+
+    {
+        "key": "textTranslation",
+        "name": "Тексты и переводы", 
+        "childs": [
+            {
+                "id":"30",
+                "subName":"Тексты и наполнение сайта",
+                "subChilds": [
+                    {"subChildName":"Статьи"},
+                    {"subChildName":"SEO-тексты"},
+                    {"subChildName":"Карточки товаров"},
+                    {"subChildName":"Комментарии"},
+                    {"subChildName":"Художественные тексты"},
+                    {"subChildName":"Сценарии"},
+                    {"subChildName":"Корректура"}
+                  
+                ] 
+            },
+            {
+                "id":"31",
+                "subName":"Продающие и бизнес тексты",
+                "subChilds": [
+                    {"subChildName":"Продающие тексты"},
+                    {"subChildName":"Реклама и email"},
+                    {"subChildName":"Скрипты продаж и выступлений"},
+                    {"subChildName":"Коммерческого предложения"},
+                    {"subChildName":"Посты для соцсетей"},
+                    {"subChildName":"Нейминг и слоганы"}
+                ] 
+            },
+
+            {
+                "id":"32",
+                "subName":"Переводы",
+                "subChilds": [
+                    {"subChildName":"Переводы на 74 языка"}
+
+                ] 
+            },
+
+
+            {
+                "id":"33",
+                "subName":"Резюме и вакансии",
+                "subChilds": [
+                    {"subChildName":"Составление резюме"},
+                    {"subChildName":"Сопроводительные письма"},
+                    {"subChildName":"Текст вакансии"}
+
+                ] 
+            },
+            
+            {
+                "id":"33",
+                "subName":"Набор текста",
+                "subChilds": [
+                    {"subChildName":"Набор текста с аудио/видео"},
+                    {"subChildName":"Набор текста с изображений"}
+
+                ] 
+            }
+            
+
+           
+        ]
+    },    
+
+    {
+        "key": "seo",
+        "name": "SEO и трафик", 
+        "childs": [
+            {
+                "id":"30",
+                "subName":"SEO",
+                "subChilds": [
+                    {"subChildName":"Ссылки"},
+                    {"subChildName":"Продвижение сайта в топ"},
+                    {"subChildName":"Внутренняя оптимизация"},
+                    {"subChildName":"Семантическое ядро"},
+                    {"subChildName":"SEO аудиты и консультации"}                 
+                ] 
+            },
+            {
+                "id":"31",
+                "subName":"Трафик",
+                "subChilds": [
+                    {"subChildName":"Посетители на сайт"},
+                    {"subChildName":"Поведенческие факторы"}
+                ] 
+            },
+
+            {
+                "id":"32",
+                "subName":"Статистика и аналитика",
+                "subChilds": [
+                    {"subChildName":"Переводы на 74 языка"}
+
+                ] 
+            }
+
+            
+        ]
+    },
+
+
+    {
+        "key": "socialmedia",
+        "name": "Соцсети и реклама", 
+        "childs": [
+            {
+                "id":"40",
+                "subName":"Базы данных и клиентов",
+                "subChilds": [
+                    {"subChildName":"Сбор данных"},
+                    {"subChildName":"Готовые базы"},
+                    {"subChildName":"Проверка и чистка базы"}                
+                ] 
+            },
+            {
+                "id":"41",
+                "subName":"E-mail рассылки",
+                "subChilds": [
+                    {"subChildName":"E-mail маркетинг и рассылки"}
+                ] 
+            },
+
+            {
+                "id":"42",
+                "subName":"Доски объявлений",
+                "subChilds": [
+                    {"subChildName":"Регистрация на досках объявлений"},
+                    {"subChildName":"Регистрация на торговых площадках"}
+
+
+                ] 
+            },
+          
+            {
+                "id":"44",
+                "subName":"Статистика и аналитика",
+                "subChilds": [
+                    {"subChildName":"Переводы на 74 языка"}
+
+                ] 
+            },
+            {
+                "id":"45",
+                "subName":"Соцсети и SMM",
+                "subChilds": [
+                    {"subChildName":"Instagram"},
+                    {"subChildName":"Youtube"},
+                    {"subChildName":"ВКонтакте"},
+                    {"subChildName":"Facebook"},
+                    {"subChildName":"Telegram"},
+                    {"subChildName":"Одноклассниках"},
+                    {"subChildName":"Яндекс Дзен"},
+                    {"subChildName":"Twitter"},
+                    {"subChildName":"TikTok"},
+                    {"subChildName":"Clubhouse"},
+                    {"subChildName":"соцсетях"}
+
+                ] 
+            },
+
+            {
+                "id":"43",
+                "subName":"Статистика и аналитика",
+                "subChilds": [
+                    {"subChildName":"Переводы на 74 языка"}
+
+                ] 
+            }
+            
+        ]
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+]

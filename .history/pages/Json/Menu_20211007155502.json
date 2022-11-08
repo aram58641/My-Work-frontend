@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Дизайн", 
+        "childs": [
+            {
+                "subName":"Логотип и брендинг",
+                "subChilds": [
+                    {"subChildName":"Логотипы"}
+                ] 
+            },
+            {
+                "subName":"Арт и иллюстрации",
+                "subChilds": [
+                    {"subChildName":"John", "age":30, "car":null},
+                    {"subName":"sdfef", "age":36, "car":null}
+                ] 
+            }
+        ]
+    },
+    {
+        "name": "gfh", 
+        "childs": [
+            {"name":"John", "age":30, "car":null},
+            {"name":"sdfef", "age":36, "car":null}
+        ]
+    }
+]

@@ -1,0 +1,53 @@
+$colorButtons: #02897a;
+
+// Header
+
+.Sign_In_btn {
+    background-color: transparent;
+    width: 102px;
+    height: 43px;
+}
+.Sign_Up_btn {
+    width: 102px;
+    height: 43px;
+    background-color: $colorButtons;
+}
+/* Button */
+
+position: absolute;
+left: 77.86%;
+right: 14.29%;
+top: 23.75%;
+bottom: 22.5%;
+
+
+
+/* Bg */
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #02897A;
+border-radius: 4px;
+
+
+/* Sign Up */
+
+position: absolute;
+height: 24px;
+left: 22.73%;
+right: 20.91%;
+top: calc(50% - 24px/2 + 0.5px);
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+color: #FFFFFF;
+

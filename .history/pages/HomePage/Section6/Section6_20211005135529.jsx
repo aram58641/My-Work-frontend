@@ -1,0 +1,14 @@
+import style from "./Section5.module.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
+
+export default function Section6() {
+    return (
+        <>
+            <div className="container-xl">
+                <div   className={`d-flex align-items-center ${style.big_section_6_box}`}>
+                   
+                </div>
+            </div>
+        </>
+    );
+}

@@ -1,0 +1,628 @@
+[
+    {
+        "key": "design",
+        "name": "Дизайн", 
+        "childs": [
+            {
+                "id":"1",
+                "subName":"Логотип и брендинг",
+                "subChilds": [
+
+                    {"subChildName":"Логотипы","key":"logos"},
+                    {"subChildName":"Фирменный стиль","key":"firm-style"},
+                    {"subChildName":"Визитки","key":"visits"},
+                    {"subChildName":"Брендирование и сувенирка","key":"branding-and-souvenir"}
+         
+                ] 
+            },
+
+            {
+                "id":"2",
+                "subName":"Веб и мобильный дизайн",
+                "subChilds": [
+
+                    {"subChildName":"Веб-дизайн","key":"web-design"},
+                    {"subChildName":"Мобильный дизайн","key":"mobile-design"},
+                    {"subChildName":"Email-дизайн","key":"Logos"},
+                    {"subChildName":"Баннеры и иконки","key":"Logos"},
+                    {"subChildName":"Дизайн в соцсетях","key":"Logos"},
+                    {"subChildName":"Юзабилити-аудит","key":"Logos"}
+
+                ] 
+            },
+            
+            {
+                "id":"3",
+                "subName":"Полиграфия",
+                "subChilds": [
+
+                    {"subChildName":"Брошюра и буклет","key":"Logos"},
+                    {"subChildName":"Листовки и флаеры","key":"Logos"},
+                    {"subChildName":"Плакат и афиша","key":"Logos"},
+                    {"subChildName":"Календарь и открытка","key":"Logos"},
+                    {"subChildName":"Каталог, меню, книга","key":"Logos"},
+                    {"subChildName":"Грамота и сертификат","key":"Logos"}
+    
+                ] 
+            },
+
+         
+            {
+                
+                "id":"4",
+                "subName":"Презентации и инфографика",
+                "subChilds": [
+
+                    {"subChildName":"Презентации","key":"Logos"},
+                    {"subChildName":"Инфографика","key":"Logos"},
+                    {"subChildName":"Карты и схемы","key":"Logos"}
+
+                ] 
+            },
+
+            {
+                "id":"5",
+                "subName":"Обработка и редактирование",
+                "subChilds": [
+                    {"subChildName":"Отрисовка в векторе","key":"Logos"},
+                    {"subChildName":"Фотомонтаж и обработка","key":"Logos"},
+                    {"subChildName":"3D-графика","key":"Logos"}
+                    
+                ] 
+            },
+            {
+                "id":"6",
+                "subName":"Промышленный дизайн",
+                "subChilds": [
+
+                    {"subChildName":"Дизайн электроники и устройств","key":"Logos"},
+                    {"subChildName":"Дизайн предметов и аксессуаров","key":"Logos"},
+                    {"subChildName":"Дизайн упаковок и этикеток","key":"Logos"}
+                    
+                ] 
+            },
+            {
+                
+                
+                
+                 
+                
+
+                "id":"7",
+                "subName":"Арт и иллюстрации",
+                "subChilds": [
+
+                    {"subChildName":"Портрет, шарж, карикатура","key":"Logos"},
+                    {"subChildName":"Иллюстрации и рисунки","key":"Logos"},
+                    {"subChildName":"Дизайн игр","key":"Logos"},
+                    {"subChildName":"Тату, принты","key":"Logos"},
+                    {"subChildName":"Стикеры","key":"Logos"},
+                    {"subChildName":"Готовые шаблоны и рисунки","key":"Logos"}
+  
+                ] 
+            },
+            {
+                "id":"8",
+                "subName":"Интерьер и экстерьер",
+                "subChilds": [
+                     
+                    {"subChildName":"Интерьер","key":"Logos"},
+                    {"subChildName":"Дизайн домов и сооружений","key":"Logos"},
+                    {"subChildName":"Ландшафтный дизайн","key":"Logos"},
+                    {"subChildName":"Дизайн мебели","key":"Logos"}
+
+                ] 
+            },
+            {
+                "id":"9",
+                "subName":"Наружная реклама",
+                "subChilds": [
+                    
+                  
+
+                    {"subChildName":"Билборды и стенды","key":"Logos"},
+                    {"subChildName":"Витрины и вывески","key":"Logos"}
+                    
+                ] 
+            }
+
+        ]
+    },
+
+
+
+
+
+
+
+    {
+        "key": "it",
+        "name": "Разработка и IT", 
+        "childs": [
+            {
+                "id":"20",
+                "subName":"Доработка и настройка сайта",
+                "subChilds": [
+                    {"subChildName":"Доработка сайта","key":"Logos"},
+                    {"subChildName":"Настройка сайта","key":"Logos"},
+                    {"subChildName":"Защита и лечение сайта","key":"Logos"},
+                    {"subChildName":"Ускорение сайта","key":"Logos"},
+                    {"subChildName":"Плагины и темы","key":"Logos"},
+                    {"subChildName":"Исправление ошибок сайта","key":"Logos"}
+                  
+                ] 
+            },
+            {
+                "id":"21",
+                "subName":"Десктоп программирование",
+                "subChilds": [
+                    {"subChildName":"Макросы для Office","key":"Logos"},
+                    {"subChildName":"Программирование в 1С","key":"Logos"},
+                    {"subChildName":"Готовые программы","key":"Logos"},
+                    {"subChildName":"Программы на заказ","key":"Logos"}
+
+                ] 
+            },
+            {
+                "id":"22",
+                "subName":"Игры",
+                "subChilds": [
+                    {"subChildName":"Разработка игр","key":"Logos"},
+                    {"subChildName":"Игровой сервер","key":"Logos"},
+                    {"subChildName":"Готовые игры","key":"Logos"}
+
+                ] 
+            },
+            {
+                "id":"23",
+                "subName":"Создание сайтов",
+                "subChilds": [
+                    {"subChildName":"Разработка игр","key":"Logos"},
+                    {"subChildName":"Игровой сервер","key":"Logos"},
+                    {"subChildName":"Готовые игры","key":"Logos"}
+
+                ] 
+            },
+            {
+                "id":"24",
+                "subName":"Скрипты и боты",
+                "subChilds": [
+                    {"subChildName":"Скрипты","key":"Logos"},
+                    {"subChildName":"Парсеры","key":"Logos"},
+                    {"subChildName":"Чат-боты","key":"Logos"}
+
+                ] 
+            },
+            {
+                "id":"25",
+                "subName":"Сервера и хостинг",
+                "subChilds": [
+                    {"subChildName":"Администрирование сервера","key":"Logos"},
+                    {"subChildName":"Домены","key":"Logos"},
+                    {"subChildName":"Хостинг","key":"Logos"}
+                ] 
+            },
+            {
+                "id":"26",
+                "subName":"Верстка",
+                "subChilds": [
+                    {"subChildName":"Верстка сайта по макету","key":"Logos"},
+                    {"subChildName":"Доработка и адаптация  сайта","key":"Logos"},
+                    {"subChildName":"Хостинг","key":"Logos"}
+                ] 
+            },
+
+            {
+                "id":"27",
+                "subName":"Мобильные приложения",
+                "subChilds": [
+                    {"subChildName":"iOS","key":"Logos"},
+                    {"subChildName":"Android","key":"Logos"}
+
+                ] 
+            },
+            
+            {
+                "id":"28",
+                "subName":"Юзабилити, тесты и помощь",
+                "subChilds": [
+                    {"subChildName":"Юзабилити-аудит","key":"Logos"},
+                    {"subChildName":"Тестирование на ошибки","key":"Logos"},
+                    {"subChildName":"Компьютерная и IT помощь","key":"Logos"}
+
+                ] 
+            }
+           
+           
+        ]
+    },
+
+    {
+        "key": "textTranslation",
+        "name": "Тексты и переводы", 
+        "childs": [
+            {
+                "id":"30",
+                "subName":"Тексты и наполнение сайта",
+                "subChilds": [
+                    {"subChildName":"Статьи","key":"Logos"},
+                    {"subChildName":"SEO-тексты","key":"Logos"},
+                    {"subChildName":"Карточки товаров","key":"Logos"},
+                    {"subChildName":"Комментарии","key":"Logos"},
+                    {"subChildName":"Художественные тексты","key":"Logos"},
+                    {"subChildName":"Сценарии","key":"Logos"},
+                    {"subChildName":"Корректура","key":"Logos"}
+                  
+                ] 
+            },
+            {
+                "id":"31",
+                "subName":"Продающие и бизнес тексты",
+                "subChilds": [
+                    {"subChildName":"Продающие тексты","key":"Logos"},
+                    {"subChildName":"Реклама и email","key":"Logos"},
+                    {"subChildName":"Скрипты продаж и выступлений","key":"Logos"},
+                    {"subChildName":"Коммерческого предложения","key":"Logos"},
+                    {"subChildName":"Посты для соцсетей","key":"Logos"},
+                    {"subChildName":"Нейминг и слоганы","key":"Logos"}
+                ] 
+            },
+
+            {
+                "id":"32",
+                "subName":"Переводы",
+                "subChilds": [
+                    {"subChildName":"Переводы на 74 языка","key":"Logos"}
+
+                ] 
+            },
+
+
+            {
+                "id":"33",
+                "subName":"Резюме и вакансии",
+                "subChilds": [
+                    {"subChildName":"Составление резюме","key":"Logos"},
+                    {"subChildName":"Сопроводительные письма","key":"Logos"},
+                    {"subChildName":"Текст вакансии","key":"Logos"}
+
+                ] 
+            },
+            
+            {
+                "id":"34",
+                "subName":"Набор текста",
+                "subChilds": [
+                    {"subChildName":"Набор текста с аудио/видео","key":"Logos"},
+                    {"subChildName":"Набор текста с изображений","key":"Logos"}
+
+                ] 
+            }
+            
+
+           
+        ]
+    },    
+
+    {
+        "key": "seo",
+        "name": "SEO и трафик", 
+        "childs": [
+            {
+                "id":"30",
+                "subName":"SEO",
+                "subChilds": [
+                    {"subChildName":"Ссылки","key":"Logos"},
+                    {"subChildName":"Продвижение сайта в топ","key":"Logos"},
+                    {"subChildName":"Внутренняя оптимизация","key":"Logos"},
+                    {"subChildName":"Семантическое ядро","key":"Logos"},
+                    {"subChildName":"SEO аудиты и консультации","key":"Logos"}                 
+                ] 
+            },
+            {
+                "id":"31",
+                "subName":"Трафик",
+                "subChilds": [
+                    {"subChildName":"Посетители на сайт","key":"Logos"},
+                    {"subChildName":"Поведенческие факторы","key":"Logos"}
+                ] 
+            },
+
+            {
+                "id":"32",
+                "subName":"Статистика и аналитика",
+                "subChilds": [
+                    {"subChildName":"Переводы на 74 языка","key":"Logos"}
+
+                ] 
+            }
+
+            
+        ]
+    },
+
+
+    {
+        "key": "socialmedia",
+        "name": "Соцсети и реклама", 
+        "childs": [
+            {
+                "id":"40",
+                "subName":"Базы данных и клиентов",
+                "subChilds": [
+                    {"subChildName":"Сбор данных","key":"Logos"},
+                    {"subChildName":"Готовые базы","key":"Logos"},
+                    {"subChildName":"Проверка и чистка базы","key":"Logos"}                
+                ] 
+            },
+            {
+                "id":"41",
+                "subName":"E-mail рассылки",
+                "subChilds": [
+                    {"subChildName":"E-mail маркетинг и рассылки","key":"Logos"}
+                ] 
+            },
+
+            {
+                "id":"42",
+                "subName":"Доски объявлений",
+                "subChilds": [
+                    {"subChildName":"Регистрация на досках объявлений","key":"Logos"},
+                    {"subChildName":"Регистрация на торговых площадках","key":"Logos"}
+
+
+                ] 
+            },
+          
+            {
+                "id":"43",
+                "subName":"Контекстная реклама",
+                "subChilds": [
+                    {"subChildName":"Google Ads","key":"Logos"},
+                    {"subChildName":"Яндекс Директ","key":"Logos"}
+                    
+
+                ] 
+            },
+            {
+                "id":"44",
+                "subName":"Соцсети и SMM",
+                "subChilds": [
+                    {"subChildName":"Instagram","key":"Logos"},
+                    {"subChildName":"Youtube","key":"Logos"},
+                    {"subChildName":"ВКонтакте","key":"Logos"},
+                    {"subChildName":"Facebook","key":"Logos"},
+                    {"subChildName":"Telegram","key":"Logos"},
+                    {"subChildName":"Одноклассниках","key":"Logos"},
+                    {"subChildName":"Яндекс Дзен","key":"Logos"},
+                    {"subChildName":"Twitter","key":"Logos"},
+                    {"subChildName":"TikTok","key":"Logos"},
+                    {"subChildName":"Clubhouse","key":"Logos"},
+                    {"subChildName":"соцсетях","key":"Logos"}
+
+                ] 
+            },
+
+            {
+                "id":"45",
+                "subName":"Реклама и PR",
+                "subChilds": [
+                    {"subChildName":"Контент-маркетинг","key":"Logos"},
+                    {"subChildName":"Размещение рекламы","key":"Logos"},
+                    {"subChildName":"Продвижение музыки","key":"Logos"}
+
+                ] 
+            }
+            
+        ]
+    },
+
+
+
+    {
+        "key": "audiovideo",
+        "name": "Аудио, видео, съемка", 
+        "childs": [
+            {
+                "id":"50",
+                "subName":"Аудиозапись и озвучка",
+                "subChilds": [
+                    {"subChildName":"Озвучка и дикторы","key":"Logos"},
+                    {"subChildName":"Аудиоролики","key":"Logos"}            
+                ] 
+            },
+
+            {
+                "id":"51",
+                "subName":"Редактирование аудио",
+                "subChilds": [
+                    {"subChildName":"Обработка звука","key":"Logos"},
+                    {"subChildName":"Выделение звука из видео","key":"Logos"}
+                ] 
+            },
+
+            {
+                "id":"52",
+                "subName":"Музыка и песни",
+                "subChilds": [
+                    {"subChildName":"Песня (музыка + текст + вокал)","key":"Logos"},
+                    {"subChildName":"Написание музыки","key":"Logos"},
+                    {"subChildName":"Написание текстов песен","key":"Logos"},
+                    {"subChildName":"Запись вокала","key":"Logos"},
+                    {"subChildName":"Аранжировка","key":"Logos"}
+                    
+                ] 
+            },
+          
+            {
+                "id":"53",
+                "subName":"Интро и анимация логотипа",
+                "subChilds": [
+                    {"subChildName":"Анимация логотипа","key":"Logos"},
+                    {"subChildName":"Интро и заставки","key":"Logos"}
+                    
+
+                ] 
+            },
+            {
+                "id":"54",
+                "subName":"Видеоролики",
+                "subChilds": [
+                    {"subChildName":"Дудл-видео","key":"Logos"},
+                    {"subChildName":"Анимационный ролик","key":"Logos"},
+                    {"subChildName":"Проморолик","key":"Logos"},
+                    {"subChildName":"Ролики для соцсетей","key":"Logos"},
+                    {"subChildName":"3D анимация","key":"Logos"},
+                    {"subChildName":"Слайд-шоу","key":"Logos"},
+                    {"subChildName":"Скринкасты и видеообзоры","key":"Logos"},
+                    {"subChildName":"Кинетическая типографика","key":"Logos"},
+                    {"subChildName":"Запись видео с ведущим","key":"Logos"},
+                    {"subChildName":"Видеопрезентация","key":"Logos"},
+                    {"subChildName":"Видеосъемка и монтаж","key":"Logos"},
+                    {"subChildName":"Сценарий роликов и рекламы","key":"Logos"}
+                ] 
+            },
+
+            {
+                "id":"55",
+                "subName":"Реклама и PR",
+                "subChilds": [
+                    {"subChildName":"Контент-маркетинг","key":"Logos"},
+                    {"subChildName":"Размещение рекламы","key":"Logos"},
+                    {"subChildName":"Продвижение музыки","key":"Logos"}
+
+                ] 
+            }
+            
+        ]
+    },
+
+    {
+        
+        "key": "business",
+        "name": "Бизнес и жизнь", 
+        "childs": [
+            {
+                "id":"60",
+                "subName":"Персональный помощник",
+                "subChilds": [
+                    {"subChildName":"Работа в MS Office", "key": "ms-office"},
+                    {"subChildName":"Поиск информации", "key": "Search-information"},
+                    {"subChildName":"Анализ информации", "key": "Analysis-information"},
+                    {"subChildName":"Любая интеллектуальная работа", "key": "Love-intellectual-work"},            
+                    {"subChildName":"Любая рутинная работа", "key": "Love-routine-work"},
+                    {"subChildName":"Менеджмент проектов", "key": "Project-management"}
+             
+
+                ] 
+            },
+
+            {
+                "id":"61",
+                "subName":"Юридическая помощь",
+                "subChilds": [
+                    {"subChildName":"Договор и доверенность", "key":"Project-management" },
+                    {"subChildName":"Судебный документ", "key": "Destiny-document"},
+                    {"subChildName":"Ведение ООО и ИП","key": "Vedenie-OOO-and-IP"},
+                    {"subChildName":"Юридическая консультация","key": "Legal-advice"},
+                    {"subChildName":"Интернет-право","key": "Internet-Law"}
+                ] 
+            },
+
+            {
+                "id":"62",
+                "subName":"Стройка и ремонт",
+                "subChilds": [
+                    {"subChildName":"Проектирование объекта","key":"Object-design"},
+                    {"subChildName":"Строительство","key":"Construction"},
+                    {"subChildName":"Дизайн домов и сооружений","key":"Home-design-and-equipment"},
+                    {"subChildName":"Интерьер","key":"Interviewer"},
+                    {"subChildName":"Ландшафтный дизайн","key":"Landscape-design"}
+                    
+                ] 
+            },
+          
+            {
+                "id":"63",
+                "subName":"Презентация",
+                "subChilds": [
+                    {"subChildName":"Оформление","key":"Form"},
+                    {"subChildName":"Текст и сценарий","key":"Text-and-scripts"}
+                    
+
+                ] 
+            },
+            {
+                "id":"64",
+                "subName":"Бухгалтерия и налоги",
+                "subChilds": [
+                    {"subChildName":"Для физлиц","key":"For-the-physical"},
+                    {"subChildName":"Для юрлиц и ИП","key":"For-IP"}
+                ] 
+            },
+
+            {
+                "id":"65",
+                "subName":"Продажа сайтов",
+                "subChilds": [
+                    {"subChildName":"Продажа сайтов с доменом","key":"Sell-this-site-with-a-domain-name"},
+                    {"subChildName":"Продажа сайтов без домена","key":"Sell-​​this-site-without-a-domain"},
+                    {"subChildName":"Домен, приложение, соцсети","key":"Domain-attachment-transcripts"}
+
+                ] 
+            },
+            {
+                "id":"66",
+                "subName":"Обучение и консалтинг",
+                "subChilds": [
+                    {"subChildName":"Обучение и консалтинг","key":"Training-and-consulting"}
+
+                ] 
+            },
+            {
+                "id":"67",
+                "subName":"Обзвоны и продажи",
+                "subChilds": [
+                    {"subChildName":"Продажи по телефону","key":"Sell-by-phone"},
+                    {"subChildName":"Телефонный опрос","key":"Phone-number"}
+                ] 
+            },
+            {
+                "id":"68",
+                "subName":"Подбор персонала",
+                "subChilds": [
+                    {"subChildName":"Подбор резюме","key":"Select-summary"},
+                    {"subChildName":"Найм специалиста","key":"Our-specialist"}
+
+                ] 
+            }
+
+
+            
+        ]
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+]

@@ -1,0 +1,26 @@
+$colorButtons: #02897a;
+
+// Header
+.headers{
+    width: 100p
+}
+.header{
+    box-shadow:    0px -1px 30.1px 0.9px rgb(56 61 61 / 82%);
+}
+.Sign_In_btn {
+    background-color: transparent;
+    width: 102px;
+    height: 43px;
+    margin-left: 24px;
+    border: 1px solid $colorButtons;
+}
+.Sign_Up_btn {
+    width: 102px;
+    height: 43px;
+    border-radius: 5px;
+    background-color: $colorButtons;
+    margin: 0 24px;
+}
+.ulLi>li>a:hover{
+    color: $colorButtons !important;
+}

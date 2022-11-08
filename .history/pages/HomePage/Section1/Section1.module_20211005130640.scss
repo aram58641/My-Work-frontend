@@ -1,0 +1,53 @@
+$colorButtons: #02897a;
+//Dark_mode
+
+
+
+.big_section_1_box {
+    width: 100%;
+    min-height: 710px;
+    background: url("../../../public/Image/section1_background.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.section1_title {
+    padding-top: 145px;
+}
+
+.Section1_btn_get_started {
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: $colorButtons !important;
+}
+.Section1_btn_WatchTheVideo {
+    color: $colorButtons !important;
+}
+.Section1_btn_WatchTheVideo::before {
+    content: url("../../../public/Image/WatchTheVideo.png");
+    padding-right:10px;
+}
+
+
+
+@media (max-width: 1100px) {
+    .big_section_3_box {
+        background-position:top center;
+    }
+    .mediaInText_section3{
+        margin-top: 500px;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 1000px) {
+    .big_section_1_box {
+        background-image:none;
+    }
+    .Section1_btn{
+        margin-top: 20px !important;
+    }
+    
+}

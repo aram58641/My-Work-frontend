@@ -1,0 +1,8 @@
+@mixin with-theme($theme) {
+    @at-root {
+        body.theme-#{$theme} {
+            @include
+        }
+    }
+    
+}

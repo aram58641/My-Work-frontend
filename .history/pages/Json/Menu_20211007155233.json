@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Asd", 
+        "childs": [
+            {"subname":"John", "age":30, "car":null},
+            {"name":"sdfef", "age":36, "car":null}
+        ]
+    },
+    {
+        "name": "gfh", 
+        "childs": [
+            {"name":"John", "age":30, "car":null},
+            {"name":"sdfef", "age":36, "car":null}
+        ]
+    }
+]

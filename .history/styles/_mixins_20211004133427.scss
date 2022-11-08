@@ -1,0 +1,10 @@
+
+@use "sass:selector";
+
+@mixin with-theme($theme) {
+    @at-root body.theme-#{$theme} & {
+        @content;
+    }
+}
+
+

@@ -1,0 +1,27 @@
+$colorButtons: #02897a;
+
+.big_section_1_box {
+    width: 100%;
+    min-height: 620px;
+    background: url("../../../public/Image/section1_background.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.section1_title {
+    padding-top: 145px;
+}
+
+.Section1_btn_get_started {
+    width: 170px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: $colorButtons !important;
+}
+.Section1_btn_WatchTheVideo {
+    color: $colorButtons;
+}
+.Section1_btn_WatchTheVideo::before {
+    content: url("../../../public/Image/WatchTheVideo.png");
+    padding-right:10px;
+}

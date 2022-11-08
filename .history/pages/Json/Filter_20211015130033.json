@@ -1,0 +1,28 @@
+[
+    {
+        "key": "design",
+        "name": "Дизайн", 
+        "childs": [
+            {
+                "id":"1",
+                "subName":"Логотип и брендинг",
+                "subChilds": [
+
+                    {"subChildName":"Логотипы","key":"logos"},
+                    {"subChildName":"Фирменный стиль","key":"firm-style"}
+   
+                ] 
+            },
+
+            {
+                "id":"2",
+                "subName":"Веб и мобильный дизайн",
+                "subChilds": [
+                    {"subChildName":"Дизайн в соцсетях","key":"social-media-design"},
+                    {"subChildName":"Юзабилити-аудит","key":"usability-audit"}
+                ] 
+            }
+            
+        ]
+    }
+]

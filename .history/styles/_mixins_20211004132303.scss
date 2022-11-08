@@ -1,0 +1,17 @@
+@mixin with-theme($theme) {
+    @at-root body.theme-#{$theme} & {
+        @content;
+    }
+}
+
+@mixin light-theme() {
+    @at-root body.theme-light & {
+      @content;
+    }
+  }
+  
+  @mixin dark-theme() {
+    @at-root body.theme-dark & {
+      @content;
+    }
+  }

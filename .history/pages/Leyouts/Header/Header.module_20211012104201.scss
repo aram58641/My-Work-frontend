@@ -1,0 +1,153 @@
+$colorButtons: #02897a;
+
+// Header
+.headers {
+    width: 100%;
+    // position: fixed;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.767);
+}
+.Nav {
+    display: flex;
+    justify-content: center;
+}
+.border_menu_bottom {
+    border: 1px solid rgb(240, 237, 237);
+}
+.Sign_In_btn {
+    background-color: transparent;
+    width: 102px;
+    height: 43px;
+    margin-left: 55px;
+    border: 1px solid $colorButtons;
+    &:hover {
+        background: $colorButtons;
+        transform: scale(1.05);
+        color: white;
+    }
+}
+.img_logo {
+    width: 100px !important;
+    height: 80px !important;
+}
+.Sign_Up_btn {
+    width: 102px;
+    height: 43px;
+    border-radius: 5px;
+    background-color: $colorButtons;
+    margin: 0 24px;
+}
+.ulLi > li > a {
+    margin-left: 20px !important;
+}
+.ulLi > li > a:hover {
+    color: $colorButtons !important;
+}
+.ulLi > li {
+    width: 25%;
+}
+.Menu_item_margin {
+    width: 70%;
+}
+.parrent {
+    width: 33%;
+    font-size: 15px;
+   
+}
+.dropdownmenu {
+    width: 830px;
+    flex-wrap: wrap;
+    flex-direction: row !important;
+}
+
+.dropdownitem_left:hover {
+    background-color: aliceblue;
+    color: #02897a;
+}
+
+.dropdownsubmenu {
+    position: relative;
+}
+// .dropdownsubmenu a::after{
+//     transform: rotate(-90deg);
+//     position: absolute;
+//     right: 3px;
+//     top: 40%;
+// }
+// .dropdownsubmenu:hover .dropdownmenu, .dropdownsubmenu:focus .dropdownmenu{
+//     display: flex;
+//     flex-direction: column;
+//     position: absolute !important;
+//     margin-top: -30px;
+//     left: 100%;
+// }
+
+.dropdownsubmenu a::after {
+    position: absolute;
+    right: 3px;
+    top: 40%;
+    color: $colorButtons;
+}
+.dropdownmenu {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.dropdownsubmenu:hover .dropdownmenu,
+.dropdownsubmenu:focus .dropdownmenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute !important;
+    margin-top: 0px;
+    left: 29%;
+}
+
+@media (max-width: 1600px) {
+    .Nav {
+        margin-left: 15px;
+        width: 50%;
+        border: none;
+        left: 24%;
+    }
+    .dropdownmenu {
+        width: 800px;
+    }
+   
+}
+@media (max-width: 1500px) {
+
+    .parrent {
+        font-size: 12px;
+    }
+}
+@media (max-width: 1320px) {
+    .Nav {
+        margin-left: 15px;
+        width: 50%;
+        border: none;
+        font-size: small;
+    }
+}
+
+@media (max-width: 1160px) {
+    .Nav {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 980px) {
+    .Nav {
+        margin-left: 15px;
+        width: 70%;
+        border: none;
+        font-size: small;
+    }
+    .dropdownmenu {
+        width: 20%;
+    }
+
+    .dropdownmenu {
+        width: 980px;
+    }
+}

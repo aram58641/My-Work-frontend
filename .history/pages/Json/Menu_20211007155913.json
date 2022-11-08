@@ -1,0 +1,59 @@
+[
+    {
+        "name": "Дизайн", 
+        "childs": [
+            {
+                "subName":"Логотип и брендинг",
+                "subChilds": [
+                    {"subChildName":"Логотипы"}
+                ] 
+            },
+
+            {
+                "subName":"Арт и иллюстрации",
+                "subChilds": [
+                    {"subChildName":"Дизайн игр"},
+                    {"subChildName":"Тату, принты"},
+                    {"subChildName":"Стикеры"},
+                    {"subChildName":"Готовые шаблоны и рисунки"}
+                    
+                ] 
+            },
+
+            {
+                "subName":"Веб и мобильный дизайн",
+                "subChilds": [
+                    {"subChildName":"Веб-дизайн"},
+                    {"subChildName":"Мобильный дизайн"},
+                    {"subChildName":"Дизайн в соцсетях"}
+                    
+                ] 
+            }
+        ]
+    },
+
+
+
+
+
+
+
+    {
+        "name": "Разработка и IT", 
+        "childs": [
+            {
+                "subName":"Логотип и брендинг",
+                "subChilds": [
+                    {"subChildName":"Логотипы"}
+                ] 
+            },
+            {
+                "subName":"Арт и иллюстрации",
+                "subChilds": [
+                    {"subChildName":"Дизайн игр"},
+                    {"subChildName":"Тату, принты"}
+                ] 
+            }
+        ]
+    }
+]

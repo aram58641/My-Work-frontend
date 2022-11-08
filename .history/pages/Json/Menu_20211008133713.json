@@ -1,0 +1,142 @@
+[
+    {
+        "key": "design",
+        "name": "Дизайн", 
+        "childs": [
+            {
+                "id":"1",
+                "subName":"Логотип и брендинг",
+                "subChilds": [
+
+                    {"subChildName":"Логотипы"},
+                    {"subChildName":"Фирменный стиль"},
+                    {"subChildName":"Визитки"},
+                    {"subChildName":"Брендирование и сувенирка"}
+         
+                ] 
+            },
+
+            {
+                "id":"2",
+                "subName":"Веб и мобильный дизайн",
+                "subChilds": [
+
+                    {"subChildName":"Веб-дизайн"},
+                    {"subChildName":"Мобильный дизайн"},
+                    {"subChildName":"Email-дизайн"},
+                    {"subChildName":"Баннеры и иконки"},
+                    {"subChildName":"Дизайн в соцсетях"},
+                    {"subChildName":"Юзабилити-аудит"}
+
+                ] 
+            },
+            
+            {
+                "id":"3",
+                "subName":"Полиграфия",
+                "subChilds": [
+
+                    {"subChildName":"Брошюра и буклет"},
+                    {"subChildName":"Листовки и флаеры"},
+                    {"subChildName":"Плакат и афиша"},
+                    {"subChildName":"Календарь и открытка"},
+                    {"subChildName":"Каталог, меню, книга"},
+                    {"subChildName":"Грамота и сертификат"}
+    
+                ] 
+            },
+
+         
+            {
+                
+                "id":"4",
+                "subName":"Презентации и инфографика",
+                "subChilds": [
+
+                    {"subChildName":"Презентации"},
+                    {"subChildName":"Инфографика"},
+                    {"subChildName":"Карты и схемы"}
+
+                ] 
+            },
+
+            {
+                "id":"5",
+                "subName":"Обработка и редактирование",
+                "subChilds": [
+                    {"subChildName":"Отрисовка в векторе"},
+                    {"subChildName":"Фотомонтаж и обработка"},
+                    {"subChildName":"3D-графика"}
+                    
+                ] 
+            },
+            {
+                "id":"6",
+                "subName":"Промышленный дизайн",
+                "subChilds": [
+
+                    {"subChildName":"Дизайн электроники и устройств"},
+                    {"subChildName":"Дизайн предметов и аксессуаров"},
+                    {"subChildName":"Дизайн упаковок и этикеток"}
+                    
+                ] 
+            },
+
+        ]
+    },
+
+
+
+
+
+
+
+    {
+        "key": "it",
+        "name": "Разработка и IT", 
+        "childs": [
+            {
+                "subName":"Доработка и настройка сайта",
+                "subChilds": [
+                    {"subChildName":"Доработка сайта"},
+                    {"subChildName":"Настройка сайта"},
+                    {"subChildName":"Доработка сайта"},
+                    {"subChildName":"Доработка сайта"},
+                    {"subChildName":"Доработка сайта"},
+                    {"subChildName":"Доработка сайта"},
+                    {"subChildName":"Доработка сайта"},
+                    {"subChildName":"Доработка сайта"}
+                ] 
+            },
+            {
+                "subName":"Арт и иллюстрации",
+                "subChilds": [
+                    {"subChildName":"Дизайн игр"},
+                    {"subChildName":"Тату, принты"}
+                ] 
+            }
+        ]
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+]

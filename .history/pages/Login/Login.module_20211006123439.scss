@@ -1,0 +1,33 @@
+$colorButtons
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+.h-custom {
+    height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+.Sign_Up_btn {
+    width: 102px;
+    height: 43px;
+    border-radius: 5px;
+    background-color: $colorButtons;
+    margin: 0 24px;
+    &:hover {
+        background: #57928c;
+        transform: scale(1.05);
+    }
+}
+
+.dsfsdfsd {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "key": "prod",
+        "name": "It", 
+        "childs": [
+            {
+                "id":"1",
+                "image" : "https://i.imgur.com/nOFet9u.jpg",
+                "username" : "Hakob",
+                "userlastname" : "Gevorgyan",
+                "nameproduct":"Веб и мобильный дизайн",
+                "Rating":5,
+                "price":2320
+
+              
+            },
+
+            {
+                "id":"2",
+                "image" : "https://i.imgur.com/nOFet9u.jpg",
+                "username" : "Aram",
+                "userlastname" : "Hakobyan",
+                "nameproduct":"Веб и мобильный дизайн",
+                "Rating":5,
+                "price":2320
+
+              
+            }
+            
+        ]
+    }
+]

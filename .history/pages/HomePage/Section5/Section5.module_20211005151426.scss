@@ -1,0 +1,33 @@
+$colorButtons: #02897a;
+//Dark_mode
+
+
+
+.big_section_5_box {
+    width: 100%;
+    min-height: 704px;
+    background: url("../../../public/Image/Section_5_background.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    
+}
+
+.section_5_text{
+    font-size: 14px;
+}
+
+
+@media (max-width: 1100px) {
+    .big_section_5_box {
+        background-position:top center;
+    }
+    .mediaInText_section5{
+        margin-top: 500px;
+        text-align: center;
+    }
+    .mediaInText_section5{
+        width: 100%;
+        df
+    }
+     
+}

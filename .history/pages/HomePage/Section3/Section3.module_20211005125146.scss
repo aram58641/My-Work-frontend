@@ -1,0 +1,27 @@
+$colorButtons: #02897a;
+//Dark_mode
+
+
+
+.big_section_3_box {
+    width: 100%;
+    min-height: 704px;
+    background: url("../../../public/Image/section3_background_image.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    
+}
+
+.section_3_text{
+    font-size: 14px;
+}
+
+
+@media (max-width: 1000px) {
+    .big_section_1_box {
+        background-image:none;
+    }
+    .Section1_btn{
+        margin-top: 20px !important;
+    }
+}
